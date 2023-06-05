@@ -21,12 +21,14 @@ export class AppComponent {
     desc: "Social network part of my final project of the Web App Dev. cycle. An accessible UI + the basic features of any social network",
     github: "https://github.com/Menosuno02/iceberg",
     web: "https://iceberg-social.herokuapp.com/",
-    img: "../assets/iceberg.png"
+    img: "../assets/iceberg.png",
+    icon: "../assets/icebergfavicon.ico",
   }, {
     title: "TVue",
     desc: "Web application created with Vue to search, filter and display the data of TV series using The Movie DB API",
     github: "https://github.com/Menosuno02/tvue-app",
     web: "https://tvue-app.vercel.app/",
-    img: "../assets/tvue.png"
+    img: "../assets/tvue.png",
+    icon: "../assets/tvuefavicon.ico",
   }];
 }
