@@ -17,7 +17,7 @@ export class AppComponent {
     , { name: "Wordpress", color: "purple" }, { name: "Drupal", color: "purple" }, { name: "Mockflow", color: "purple" }];
 
   badgeClasses(color: string): string {
-    return `text-xs font-medium px-2.5 py-0.5 rounded bg-${color}-100 text-${color}-800 dark:bg-${color}-900 dark:text-${color}-300`;
+    return `text-xs font-medium px-2.5 py-0.5 rounded bg-${color}-900 text-${color}-300`;
   }
 
   projects: Project[] = [{
