@@ -4,7 +4,7 @@
     <img class="w-24 h-24 rounded-full shadow-lg mb-6" src="../assets/foto.jpg" />
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Alejandro López Labajo</h5>
     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Full Stack Web Developer</p>
-    <div class="text-base-content text-opacity-60 text-gray-900 dark:text-white w-80">
+    <div class="text-base-content text-opacity-60 text-gray-900 dark:text-white w-5/6">
       <a target="_blank" rel="noreferrer" class="flex justify-start py-2 px-1 items-center">
         <div class="flex-grow font-medium gap-2 flex items-center my-1">
           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em"
@@ -90,33 +90,8 @@
     <div class="p-5">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Skills / Competences</h5>
       <div class="p-3 -m-1 flex flex-wrap justify-center">
-        <div *ngFor="let item of front"
-          class="m-1 bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-          <span>{{ item }}</span>
-        </div>
-        <div *ngFor="let item of front2"
-          class="m-1 bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">
-          <span>{{ item }}</span>
-        </div>
-        <div *ngFor="let item of back"
-          class="m-1 bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300">
-          <span>{{ item }}</span>
-        </div>
-        <div *ngFor="let item of db"
-          class="m-1 bg-yellow-100 text-yellow-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300">
-          <span>{{ item }}</span>
-        </div>
-        <div *ngFor="let item of mobiles"
-          class="m-1 bg-indigo-100 text-indigo-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-indigo-900 dark:text-indigo-300">
-          <span>{{ item }}</span>
-        </div>
-        <div *ngFor="let item of other"
-          class="m-1 bg-pink-100 text-pink-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-pink-900 dark:text-pink-300">
-          <span>{{ item }}</span>
-        </div>
-        <div *ngFor="let item of design"
-          class="m-1 bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">
-          <span>{{ item }}</span>
+        <div *ngFor="let badge of badges" class="my-0.5 m-2">
+          <span [class]="badgeClasses(badge.color)">{{ badge.name }}</span>
         </div>
       </div>
     </div>
@@ -180,7 +155,7 @@
       </a>
       <div class="grid grid-cols-12 gap-4">
         <div *ngFor="let item of projects"
-          class="col-span-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700">
+          class="col-span-12 sm:col-span-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700">
           <img class="rounded-t-lg" src="{{ item.img }}" />
           <div class="p-5">
             <h5 class="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><img
@@ -203,10 +178,14 @@
                 </path>
               </svg>
             </a>
+            <div class="py-1.5 pb-2 my-3 -m-1 flex flex-wrap justify-center bg-gray-800 rounded-lg">
+              <div *ngFor="let badge of item.badges" class="my-0.5 m-0.5">
+                <span [class]="badgeClasses(badge.color)">{{ badge.name }}</span>
+              </div>
+            </div>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ item.desc }}</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>

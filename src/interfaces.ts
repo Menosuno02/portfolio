@@ -4,5 +4,11 @@ export interface Project {
   github: string,
   web: string,
   img: string,
-  icon: string
+  icon: string,
+  badges: Badge[]
+}
+
+export interface Badge {
+  name: string,
+  color: string
 }

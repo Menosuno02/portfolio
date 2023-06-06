@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Project } from 'src/interfaces';
+import { Badge, Project } from 'src/interfaces';
 
 @Component({
   selector: 'app-root',
@@ -8,13 +8,17 @@ import { Project } from 'src/interfaces';
 })
 export class AppComponent {
   title = 'portfolio';
-  front: string[] = ["HTML5", "CSS3", "SCSS/Sass", "Bootstrap", "Tailwind"];
-  front2: string[] = ["JavaScript", "jQuery", "TypeScript", "Angular", "Vue"];
-  back: string[] = ["Java", "Python", "Django", "C#", ".NET", "ASP.NET Core", "PHP"];
-  db: string[] = ["MySQL", "Oracle", "SQLite", "PL/SQL", "MongoDB"];
-  mobiles: string[] = ["IONIC"];
-  other: string[] = ["Git", "GitHub", "Docker", "Behat"];
-  design: string[] = ["Wordpress", "Drupal", "Mockflow"];
+
+  badges: Badge[] = [{ name: "HTML5", color: "blue" }, { name: "CSS3", color: "blue" }, { name: "SCSS/Sass", color: "blue" }, { name: "Bootstrap", color: "blue" }, { name: "Tailwind", color: "blue" }
+    , { name: "Javascript", color: "green" }, { name: "jQuery", color: "green" }, { name: "TypeScript", color: "green" }, { name: "Angular", color: "green" }, { name: "Vue", color: "green" }
+    , { name: "Java", color: "red" }, { name: "Python", color: "red" }, { name: "Django", color: "red" }, { name: "C#", color: "red" }, { name: ".NET", color: "red" }, { name: "ASP.NET Core", color: "red" }, { name: "PHP", color: "red" }
+    , { name: "MySQL", color: "yellow" }, { name: "Oracle", color: "yellow" }, { name: "SQLite", color: "yellow" }, { name: "PL/SQL", color: "yellow" }, { name: "MongoDB", color: "yellow" }
+    , { name: "IONIC", color: "indigo" }, { name: "Git", color: "pink" }, { name: "Github", color: "pink" }, { name: "Docker", color: "pink" }, { name: "Behat", color: "pink" }
+    , { name: "Wordpress", color: "purple" }, { name: "Drupal", color: "purple" }, { name: "Mockflow", color: "purple" }];
+
+  badgeClasses(color: string): string {
+    return `text-xs font-medium px-2.5 py-0.5 rounded bg-${color}-100 text-${color}-800 dark:bg-${color}-900 dark:text-${color}-300`;
+  }
 
   projects: Project[] = [{
     title: "Iceberg",
@@ -23,6 +27,7 @@ export class AppComponent {
     web: "https://iceberg-social.herokuapp.com/",
     img: "../assets/iceberg.png",
     icon: "../assets/icebergfavicon.ico",
+    badges: [{ name: "Python", color: "red" }, { name: "Django", color: "red" }, { name: "Bootstrap", color: "blue" }, { name: "SQLite", color: "yellow" }],
   }, {
     title: "TVue",
     desc: "Web application created with Vue to search, filter and display the data of TV series using The Movie DB API",
@@ -30,5 +35,6 @@ export class AppComponent {
     web: "https://tvue-app.vercel.app/",
     img: "../assets/tvue.png",
     icon: "../assets/tvuefavicon.ico",
+    badges: [{ name: "Vue", color: "green" }, { name: "SCSS/Sass", color: "blue" }, { name: "Bootstrap", color: "blue" }],
   }];
 }
