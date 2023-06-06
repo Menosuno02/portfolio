@@ -1,6 +1,5 @@
 <div class="xl:col-span-5 lg:col-span-5 col-span-12">
-  <div
-    class="border rounded-lg shadow bg-gray-800 border-gray-700 flex flex-col items-center pt-10 pb-8">
+  <div class="border rounded-lg shadow bg-gray-800 border-gray-700 flex flex-col items-center pt-10 pb-8">
     <img class="w-24 h-24 rounded-full shadow-lg mb-6" src="../assets/foto.jpg" />
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Alejandro López Labajo</h5>
     <p class="mb-3 font-normal text-gray-400">Full Stack Web Developer</p>
@@ -16,7 +15,7 @@
           </svg>
           Location:
         </div>
-        <div class="text-sm font-normal text-right mr-2 ml-3 break-all">Madrid, Spain</div>
+        <div class="text-white text-sm font-normal text-right mr-2 ml-3 break-all">Madrid, Spain</div>
       </a>
       <a target="_blank" rel="noreferrer" class="flex justify-start py-2 px-1 items-center">
         <div class="flex-grow font-medium gap-2 flex items-center my-1">
@@ -28,7 +27,7 @@
           </svg>
           Company:
         </div>
-        <div class="text-sm font-normal text-right mr-2 ml-3 break-all">Altia</div>
+        <div class="text-white text-sm font-normal text-right mr-2 ml-3 break-all">Altia</div>
       </a>
       <a href="https://github.com/Menosuno02" target="_blank" rel="noreferrer"
         class="flex justify-start py-2 px-1 items-center">
@@ -41,7 +40,7 @@
           </svg>
           GitHub:
         </div>
-        <div class="text-sm font-normal text-right mr-2 ml-3 truncate break-all">Menosuno02</div>
+        <div class="text-white text-sm font-normal text-right mr-2 ml-3 truncate break-all">Menosuno02</div>
       </a>
       <a href="https://www.linkedin.com/in/alejandrolopezlabajo26" target="_blank" rel="noreferrer"
         class="flex justify-start py-2 px-1 items-center">
@@ -54,7 +53,7 @@
           </svg>
           LinkedIn:
         </div>
-        <div class="text-sm font-normal text-right mr-2 ml-3 truncate break-all">alejandrolopezlabajo26</div>
+        <div class="text-white text-sm font-normal text-right mr-2 ml-3 truncate break-all">alejandrolopezlabajo26</div>
       </a>
       <a href="mailto:alopezlabajo.02@gmail.com" target="_blank" rel="noreferrer"
         class="flex justify-start py-2 px-1 items-center">
@@ -70,7 +69,8 @@
           </svg>
           Email:
         </div>
-        <div class="text-sm font-normal text-right mr-2 ml-3 truncate break-all">alopezlabajo.02@gmail.com</div>
+        <div class="text-white text-sm font-normal text-right mr-2 ml-3 truncate break-all">alopezlabajo.02@gmail.com
+        </div>
       </a>
       <a target="_blank" rel="noreferrer" class="flex justify-start py-2 px-1 items-center">
         <div class="flex-grow font-medium gap-2 flex items-center my-1">
@@ -82,7 +82,7 @@
           </svg>
           Birthday:
         </div>
-        <div class="text-sm font-normal text-right mr-2 ml-3 break-all">December 26, 2002</div>
+        <div class="text-white text-sm font-normal text-right mr-2 ml-3 break-all">December 26, 2002</div>
       </a>
     </div>
   </div>
@@ -101,8 +101,7 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white pb-3">Experience</h5>
       <ol class="relative border-l border-gray-700">
         <li class="ml-4">
-          <div
-            class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700">
+          <div class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700">
           </div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-500">March 2023 - June
             2023</time>
@@ -117,8 +116,7 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white pb-3">Education</h5>
       <ol class="relative border-l border-gray-700">
         <li class="mb-6 ml-4">
-          <div
-            class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700">
+          <div class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700">
           </div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2021 - June
             2023</time>
@@ -131,8 +129,7 @@
           </p>
         </li>
         <li class="ml-4">
-          <div
-            class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700">
+          <div class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700">
           </div>
           <time class="mb-1 text-sm font-normal leading-none text-gray-500">September 2018 - July
             2020</time>
@@ -158,8 +155,8 @@
           class="col-span-12 sm:col-span-6 border rounded-lg shadow bg-gray-700 border-gray-700">
           <img class="rounded-t-lg" src="{{ item.img }}" />
           <div class="p-5">
-            <h5 class="mb-3 text-2xl font-bold tracking-tight text-white"><img
-                class="inline-block mr-3 mb-1" src="{{ item.icon }}" width="30" height="30">{{ item.title }}</h5>
+            <h5 class="mb-3 text-2xl font-bold tracking-tight text-white"><img class="inline-block mr-3 mb-1"
+                src="{{ item.icon }}" width="30" height="30">{{ item.title }}</h5>
             <a type="button" href="{{ item.github }}"
               class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-3.5 py-2.5 text-center inline-flex items-center focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
               <svg class="w-4 h-4" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img"
@@ -178,12 +175,12 @@
                 </path>
               </svg>
             </a>
-            <div class="py-1.5 pb-2 my-3 -m-1 flex flex-wrap justify-center bg-gray-800 rounded-lg">
+            <div class="px-1 pt-1.5 pb-2 mt-1 mb-3 -m-1 flex flex-wrap justify-center bg-gray-800 rounded-lg">
               <div *ngFor="let badge of item.badges" class="my-0.5 m-0.5">
                 <span [class]="badgeClasses(badge.color)">{{ badge.name }}</span>
               </div>
             </div>
-            <p class="mb-3 font-normal text-gray-400">{{ item.desc }}</p>
+            <p class="font-normal text-gray-400">{{ item.desc }}</p>
           </div>
         </div>
       </div>
