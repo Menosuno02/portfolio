@@ -8,6 +8,7 @@ import { Badge, Project } from 'src/interfaces';
 })
 export class AppComponent {
   title = 'portfolio';
+  selected = 'about';
 
   badges: Badge[] = [{ name: "HTML5", color: "blue" }, { name: "CSS3", color: "blue" }, { name: "SCSS/Sass", color: "blue" }, { name: "Bootstrap", color: "blue" }, { name: "Tailwind", color: "blue" }
     , { name: "Javascript", color: "green" }, { name: "jQuery", color: "green" }, { name: "TypeScript", color: "green" }, { name: "Angular", color: "green" }, { name: "Vue", color: "green" }
@@ -35,6 +36,10 @@ export class AppComponent {
     web: "https://tvue-app.vercel.app/",
     img: "../assets/tvue.png",
     icon: "../assets/tvuefavicon.ico",
-    badges: [{ name: "Vue", color: "green" }, { name: "SCSS/Sass", color: "blue" }, { name: "Bootstrap", color: "blue" }],
+    badges: [{ name: "Vue", color: "green" }, { name: "Bootstrap", color: "blue" }],
   }];
+
+  updateContent(option: string) {
+    this.selected = option;
+  }
 }
