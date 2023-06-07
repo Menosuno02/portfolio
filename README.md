@@ -1,3 +1,3 @@
 # Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
+Este portfolio ha sido generado mediante Angular CLI, y fue desarrollado usando Angular, Tailwind CSS y la librería de componentes de Tailwind, Flowbite

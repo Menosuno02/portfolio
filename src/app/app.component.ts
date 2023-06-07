@@ -13,11 +13,11 @@ export class AppComponent {
     , { name: "Javascript", color: "green" }, { name: "jQuery", color: "green" }, { name: "TypeScript", color: "green" }, { name: "Angular", color: "green" }, { name: "Vue", color: "green" }
     , { name: "Java", color: "red" }, { name: "Python", color: "red" }, { name: "Django", color: "red" }, { name: "C#", color: "red" }, { name: ".NET", color: "red" }, { name: "ASP.NET Core", color: "red" }, { name: "PHP", color: "red" }
     , { name: "MySQL", color: "yellow" }, { name: "Oracle", color: "yellow" }, { name: "SQLite", color: "yellow" }, { name: "PL/SQL", color: "yellow" }, { name: "MongoDB", color: "yellow" }
-    , { name: "IONIC", color: "indigo" }, { name: "Git", color: "pink" }, { name: "Github", color: "pink" }, { name: "Docker", color: "pink" }, { name: "Behat", color: "pink" }
+    , { name: "IONIC", color: "indigo" }, { name: "Git", color: "pink" }, { name: "Github", color: "pink" }, { name: "Behat", color: "pink" }
     , { name: "Wordpress", color: "purple" }, { name: "Drupal", color: "purple" }, { name: "Mockflow", color: "purple" }];
 
   badgeClasses(color: string): string {
-    return `text-xs font-medium px-2.5 py-0.5 rounded bg-${color}-900 text-${color}-300`;
+    return `text-xs font-medium px-2.5 py-0.5 rounded bg-${color}-900 text-${color}-300 border border-${color}-500`;
   }
 
   projects: Project[] = [{
