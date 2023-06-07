@@ -1,4 +1,4 @@
-<div class="xl:col-span-5 lg:col-span-5 col-span-12">
+<div class="xl:col-span-4 lg:col-span-5 col-span-12">
   <div class="border rounded-lg shadow bg-gray-800 border-gray-700 flex flex-col items-center pt-10 pb-8">
     <img class="w-24 h-24 rounded-full shadow-lg mb-6" src="../assets/foto.jpg" width="96" height="96" />
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Alejandro López Labajo</h5>
@@ -87,24 +87,21 @@
     </div>
   </div>
 </div>
-<div class="mt-8 lg:mt-0 lg:col-span-7 lg:col-start-6 col-span-12">
-  <div class="inline-flex mb-2 rounded-md shadow-sm w-full bg-gray-800" role="group">
+<div class="mt-8 lg:mt-0 lg:col-span-7 lg:col-start-6 xl:col-span-8 col-span-12">
+  <div class="inline-flex rounded-md shadow-sm w-full bg-gray-800" role="group">
     <button type="button"
-      [class]="selected === 'about' ? 'bg-gray-800 w-full px-4 py-2 text-sm font-medium border rounded-l-lg focus:z-10 focus:ring-2 border-gray-700 text-white hover:text-white hover:bg-gray-600 focus:ring-blue-500 focus:text-white'
-        : 'bg-gray-700 w-full px-4 py-2 text-sm font-medium border rounded-l-lg focus:z-10 focus:ring-2 border-gray-700 text-white hover:text-white hover:bg-gray-600 focus:ring-blue-500 focus:text-white'"
-      (click)="selected = 'about'">
+      class="w-full px-4 py-2 text-sm font-medium border rounded-l-lg border-gray-700 text-white hover:text-white hover:bg-gray-600"
+      [class]="selected === 'about' ? 'bg-gray-800' : 'bg-gray-700'" (click)="selected = 'about'">
       About
     </button>
     <button type="button"
-      [class]="selected === 'e&e' ? 'bg-gray-800 w-full px-4 py-2 text-sm font-medium border-t border-b focus:z-10 focus:ring-2 border-gray-700 text-white hover:text-white hover:bg-gray-600 focus:ring-blue-500 focus:text-white'
-        : 'bg-gray-700 w-full px-4 py-2 text-sm font-medium border-t border-b focus:z-10 focus:ring-2 border-gray-700 text-white hover:text-white hover:bg-gray-600 focus:ring-blue-500 focus:text-white'"
-      (click)="selected = 'e&e'">
-      Education & Experiences
+      class="w-full px-4 py-2 text-sm font-medium border-t border-b border-gray-700 text-white hover:text-white hover:bg-gray-600"
+      [class]="selected === 'e&e' ? 'bg-gray-800' : 'bg-gray-700'" (click)="selected = 'e&e'">
+      Education & Experience
     </button>
     <button type="button"
-      [class]="selected === 'projects' ? 'bg-gray-800 w-full px-4 py-2 text-sm font-medium  border rounded-r-md focus:z-10 focus:ring-2 border-gray-700 text-white hover:text-white hover:bg-gray-600 focus:ring-blue-500 focus:text-white'
-        : 'bg-gray-700 w-full px-4 py-2 text-sm font-medium  border rounded-r-md focus:z-10 focus:ring-2 border-gray-700 text-white hover:text-white hover:bg-gray-600 focus:ring-blue-500 focus:text-white'"
-      (click)="selected = 'projects'">
+      class="w-full px-4 py-2 text-sm font-medium border rounded-r-md border-gray-700 text-white hover:text-white hover:bg-gray-600"
+      [class]="selected === 'projects' ? 'bg-gray-800' : 'bg-gray-700'" (click)="selected = 'projects'">
       Projects
     </button>
   </div>
@@ -182,8 +179,8 @@
             <div class="p-5">
               <h5 class="mb-3 text-2xl font-bold tracking-tight text-white"><img class="inline-block mr-3 mb-1"
                   src="{{ item.icon }}" width="30" height="30">{{ item.title }}</h5>
-              <a type="button" href="{{ item.github }}"
-                class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-3.5 py-2.5 text-center inline-flex items-center focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
+              <a type="button" target="_blank" href="{{ item.github }}"
+                class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-3 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-3.5 py-2.5 text-center inline-flex items-center focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
                 <svg class="w-4 h-4" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                   role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                   <path fill="currentColor"
@@ -191,8 +188,8 @@
                   </path>
                 </svg>
               </a>
-              <a type="button" href="{{ item.web }}"
-                class="text-white bg-[#050708] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-3.5 py-2.5 text-center inline-flex items-center focus:ring-[#050708]/50 hover:bg-[#050708]/30 mr-2 mb-2">
+              <a type="button" target="_blank" href="{{ item.web }}"
+                class="text-white bg-[#050708] focus:ring-3 focus:outline-none font-medium rounded-lg text-sm px-3.5 py-2.5 text-center inline-flex items-center focus:ring-[#050708]/50 hover:bg-[#050708]/30 mr-2 mb-2">
                 <svg class="w-4 h-4" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
