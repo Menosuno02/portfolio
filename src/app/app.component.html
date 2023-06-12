@@ -110,7 +110,7 @@
       <div class="p-5">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Skills / Competences</h5>
         <div class="p-3 -m-1 flex flex-wrap justify-center">
-          <div *ngFor="let badge of badges" class="my-0.5 m-1">
+          <div *ngFor="let badge of service.badges" class="my-0.5 m-1">
             <span [class]="badgeClasses(badge.color)">{{ badge.name }}</span>
           </div>
         </div>
@@ -173,7 +173,7 @@
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-white pb-3">Projects</h5>
         </a>
         <div class="grid grid-cols-12 gap-4">
-          <div *ngFor="let item of projects"
+          <div *ngFor="let item of service.projects"
             class="col-span-12 sm:col-span-6 border rounded-lg shadow bg-gray-700 border-gray-700">
             <img class="rounded-t-lg" src="{{ item.img }}" />
             <div class="p-5">
