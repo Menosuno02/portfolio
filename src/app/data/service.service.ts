@@ -14,6 +14,7 @@ export class ServiceService {
     , { name: "Wordpress", color: "purple" }, { name: "Drupal", color: "purple" }, { name: "Mockflow", color: "purple" }];
 
   projects: Project[] = [{
+    id: "iceberg",
     title: "Iceberg",
     desc: "Social network part of my final project of the Web App Dev. cycle. An accessible UI + the basic features of any social network",
     github: "https://github.com/Menosuno02/iceberg",
@@ -22,6 +23,7 @@ export class ServiceService {
     icon: "../assets/icebergfavicon.ico",
     badges: [{ name: "Python", color: "red" }, { name: "Django", color: "red" }, { name: "Bootstrap", color: "blue" }, { name: "SQLite", color: "yellow" }],
   }, {
+    id: "tvue",
     title: "TVue",
     desc: "Web application created with Vue to search, filter and display the data of TV series using The Movie DB API",
     github: "https://github.com/Menosuno02/tvue-app",

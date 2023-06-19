@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ServiceService } from './data/service.service';
+import { TranslateService } from "@ngx-translate/core";
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,10 @@ import { ServiceService } from './data/service.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(public service: ServiceService) { }
+  constructor(public service: ServiceService, private translate: TranslateService) {
+    translate.setDefaultLang('en');
+    translate.use('en');
+  }
 
   selected = 'about';
 
@@ -17,5 +21,9 @@ export class AppComponent {
 
   updateContent(option: string) {
     this.selected = option;
+  }
+
+  useLanguage(language: string): void {
+    this.translate.use(language);
   }
 }
