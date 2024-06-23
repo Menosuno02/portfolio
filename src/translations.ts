@@ -1,6 +1,13 @@
 export default {
   en: {
     "about.skills": "Skills / Competences",
+    "about.p1": "Hi! I'm Alejo (or Álex, as you prefer)",
+    "about.p2":
+      "I am a full stack developer from Madrid, more specialized in web applications",
+    "about.p3":
+      "I started programming in secondary school playing around with Scratch and JavaScript, and years later here we are",
+    "about.p4":
+      "I love experimenting with new front-end technologies, although I like to work more on the back-end",
     "data.birthday": "Birthday",
     "data.company": "Company",
     "data.dev": "Full Stack Web Developer",
@@ -30,7 +37,7 @@ export default {
       "Social network part of my final project of the Web App Dev. cycle. An accessible UI + the basic features of any social network",
     "projects.title": "Projects",
     "projects.tabe.desc":
-      "App done in ASP.NET Core, emulates how a food delivery application works. Migrated to both Azure and AWS (the latter as a group project)",
+      "App that emulates how a food delivery web works. Migrated to both Azure and AWS (the latter as a group project)",
     "projects.techriders.desc":
       "Winning group frontend project to be implemented, developed together with my colleagues Ana and Samuel. Allows teachers to request talks to be given by TechRiders. Backend developed by the whole class",
     "projects.tvue.desc":
@@ -38,6 +45,13 @@ export default {
   },
   es: {
     "about.skills": "Habilidades / Competencias",
+    "about.p1": "¡Holi! Soy Alejo (o Álex, como prefieras)",
+    "about.p2":
+      "Soy un desarrollador full stack de Madrid, más especializado en aplicaciones web",
+    "about.p3":
+      "Empecé a programar en la ESO trasteando con Scratch y JavaScript, y años después aquí estamos",
+    "about.p4":
+      "Me encanta experimentar con nuevas tecnologías de front-end, aunque me gusta más trabajar en back-end",
     "data.birthday": "Cumpleaños",
     "data.company": "Compañía",
     "data.dev": "Desarrollador Web Full Stack",
@@ -68,7 +82,7 @@ export default {
       "Red social parte de mi proyecto final del ciclo FP de DAW. Una interfaz de usuario accesible + las características básicas de cualquier red social",
     "projects.title": "Proyectos",
     "projects.tabe.desc":
-      "App realizada en ASP.NET Core, emula el funcionamiento de una aplicación para pedir comida a domicilio. Migrado tanto a Azure como a AWS (este último como un proyecto grupal)",
+      "App que emula el funcionamiento de una página para pedir comida a domicilio. Migrado tanto a Azure como a AWS (este último como un proyecto grupal)",
     "projects.techriders.desc":
       "Proyecto frontend grupal ganador para ser implementado, desarrollado junto a mis compañeros Ana y Samuel. Permite a profesores solicitar charlas para ser impartidas por los TechRiders. Backend desarrollado por toda la clase",
     "projects.tvue.desc":

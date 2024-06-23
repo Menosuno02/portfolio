@@ -12,6 +12,12 @@
 <div class={$page.url.pathname === "/" ? "" : "hidden"}>
   <div class="mt-8 border rounded-lg shadow bg-gray-800 border-gray-700">
     <div class="p-5">
+      <h5 class="mb-2 text-md text-white pb-5">
+        <p>{$t("about.p1")}</p>
+        <p>{$t("about.p2")}</p>
+        <p>{$t("about.p3")}</p>
+        <p>{$t("about.p4")}</p>
+      </h5>
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
         {$t("about.skills")}
       </h5>
