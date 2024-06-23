@@ -30,7 +30,7 @@ export default {
       "Social network part of my final project of the Web App Dev. cycle. An accessible UI + the basic features of any social network",
     "projects.title": "Projects",
     "projects.tabe.desc":
-      "Project done in ASP.NET Core that emulates the operation of a food delivery application. Migrated to both Azure and AWS (the latter as a group project)",
+      "App done in ASP.NET Core, emulates how a food delivery application works. Migrated to both Azure and AWS (the latter as a group project)",
     "projects.techriders.desc":
       "Winning group frontend project to be implemented, developed together with my colleagues Ana and Samuel. Allows teachers to request talks to be given by TechRiders. Backend developed by the whole class",
     "projects.tvue.desc":
@@ -68,7 +68,7 @@ export default {
       "Red social parte de mi proyecto final del ciclo FP de DAW. Una interfaz de usuario accesible + las características básicas de cualquier red social",
     "projects.title": "Proyectos",
     "projects.tabe.desc":
-      "Proyecto realizado en ASP.NET Core que emula el funcionamiento de una aplicación para pedir comida a domicilio. Migrado tanto a Azure como a AWS (este último como un proyecto grupal)",
+      "App realizada en ASP.NET Core, emula el funcionamiento de una aplicación para pedir comida a domicilio. Migrado tanto a Azure como a AWS (este último como un proyecto grupal)",
     "projects.techriders.desc":
       "Proyecto frontend grupal ganador para ser implementado, desarrollado junto a mis compañeros Ana y Samuel. Permite a profesores solicitar charlas para ser impartidas por los TechRiders. Backend desarrollado por toda la clase",
     "projects.tvue.desc":

@@ -2,6 +2,11 @@
   import { t } from "../../i18n";
 </script>
 
+<svelte:head>
+  <title>Alejandro López Labajo | Portfolio</title>
+  <meta name="description" content="Portfolio" />
+</svelte:head>
+
 <div class="mt-8 border rounded-lg shadow bg-gray-800 border-gray-700">
   <div class="p-5">
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-white pb-3">

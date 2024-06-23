@@ -5,8 +5,8 @@
 </script>
 
 <svelte:head>
-  <title>Home</title>
-  <meta name="description" content="Svelte demo app" />
+  <title>Alejandro López Labajo | Portfolio</title>
+  <meta name="description" content="Portfolio" />
 </svelte:head>
 
 <div class={$page.url.pathname === "/" ? "" : "hidden"}>

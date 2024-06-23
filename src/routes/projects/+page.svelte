@@ -1,11 +1,16 @@
 <script lang="ts">
   import { t } from "../../i18n";
-  import { projects, badgeClasses, badgeCustomColorClasses } from "../../data";
+  import { projects, badgeCustomColorClasses } from "../../data";
 
   function getImageUrl(imageName: string) {
     return new URL(`/src/lib/images/${imageName}`, import.meta.url).href;
   }
 </script>
+
+<svelte:head>
+  <title>Alejandro López Labajo | Portfolio</title>
+  <meta name="description" content="Portfolio" />
+</svelte:head>
 
 <div class=" mt-8 border rounded-lg shadow bg-gray-800 border-gray-700">
   <div class="p-5">
@@ -26,10 +31,8 @@
             <h5 class="mb-3 text-2xl font-bold tracking-tight text-white">
               <img
                 alt=""
-                class="inline-block mr-3 mb-1"
+                class="inline-block mr-3 mb-1 w-7 h-7"
                 src={getImageUrl("icos/" + project.id + ".ico")}
-                width="30"
-                height="30"
               />{project.title}
             </h5>
             <a

@@ -41,7 +41,7 @@ export const projects: Project[] = [
     id: "tabe",
     title: "Tabe",
     github: "https://github.com/Menosuno02/tabe",
-    web: "https://iceberg-social.herokuapp.com/",
+    web: "https://tabedeliveryapp.azurewebsites.net/",
     badges: [
       { id: "csharp", badge: { name: "C#", color: "#512BD4" } },
       { id: "dotnet", badge: { name: "ASP.NET Core", color: "#512BD4" } },
