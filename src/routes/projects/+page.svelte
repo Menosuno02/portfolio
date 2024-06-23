@@ -33,7 +33,8 @@
                 alt=""
                 class="inline-block mr-3 mb-1 w-7 h-7"
                 src={getImageUrl("icos/" + project.id + ".ico")}
-              />{project.title}
+              />
+              {project.title}
             </h5>
             <a
               type="button"

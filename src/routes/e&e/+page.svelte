@@ -17,9 +17,9 @@
         <div
           class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700"
         ></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-500"
-          >{$t("ee.experience.1.date")}</time
-        >
+        <time class="mb-1 text-sm font-normal leading-none text-gray-500">
+          {$t("ee.experience.1.date")}
+        </time>
         <h3 class="text-lg font-semibold text-white">
           {$t("ee.experience.1.title")}
         </h3>
@@ -41,9 +41,9 @@
         <div
           class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700"
         ></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-500"
-          >{$t("ee.education.2.date")}</time
-        >
+        <time class="mb-1 text-sm font-normal leading-none text-gray-500">
+          {$t("ee.education.2.date")}
+        </time>
         <h3 class="text-lg font-semibold text-white">
           {$t("ee.education.2.title")}
         </h3>
@@ -59,9 +59,9 @@
         <div
           class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-900 bg-gray-700"
         ></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-500"
-          >{$t("ee.education.1.date")}</time
-        >
+        <time class="mb-1 text-sm font-normal leading-none text-gray-500">
+          {$t("ee.education.1.date")}
+        </time>
         <h3 class="text-lg font-semibold text-white">
           {$t("ee.education.1.title")}
         </h3>

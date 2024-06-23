@@ -8,6 +8,7 @@ export default {
       "I started programming in secondary school playing around with Scratch and JavaScript, and years later here we are",
     "about.p4":
       "I love experimenting with new front-end technologies, although I like to work more on the back-end",
+    "about.p5": "This portfolio is made to test the JavaScript framework ",
     "data.birthday": "Birthday",
     "data.company": "Company",
     "data.dev": "Full Stack Web Developer",
@@ -52,6 +53,8 @@ export default {
       "Empecé a programar en la ESO trasteando con Scratch y JavaScript, y años después aquí estamos",
     "about.p4":
       "Me encanta experimentar con nuevas tecnologías de front-end, aunque me gusta más trabajar en back-end",
+    "about.p5":
+      "Este portfolio está hecho para probar el framework de JavaScript ",
     "data.birthday": "Cumpleaños",
     "data.company": "Compañía",
     "data.dev": "Desarrollador Web Full Stack",

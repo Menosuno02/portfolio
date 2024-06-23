@@ -1,7 +1,11 @@
-<script>
+<script lang="ts">
   import { page } from "$app/stores";
   import { t } from "../i18n";
   import { badges, badgeClasses } from "../data";
+
+  function getImageUrl(imageName: string) {
+    return new URL(`/src/lib/images/${imageName}`, import.meta.url).href;
+  }
 </script>
 
 <svelte:head>
@@ -17,6 +21,20 @@
         <p>{$t("about.p2")}</p>
         <p>{$t("about.p3")}</p>
         <p>{$t("about.p4")}</p>
+        <p>
+          {$t("about.p5")}<a
+            type="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://svelte.dev"
+            style="color:#FF3E00"
+          >
+            <img
+              class="size-5 mix-blend-normal ml-0.5 mr-0.5 inline-block"
+              src={getImageUrl("svgs/svelte-color.svg")}
+            />Svelte
+          </a>
+        </p>
       </h5>
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
         {$t("about.skills")}
@@ -26,8 +44,10 @@
           <div class="my-0.5 m-1">
             <span
               class={"text-xs font-medium px-2.5 py-0.5 rounded border" +
-                badgeClasses(badge.color)}>{badge.name}</span
+                badgeClasses(badge.color)}
             >
+              {badge.name}
+            </span>
           </div>
         {/each}
       </div>
