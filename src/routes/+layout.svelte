@@ -1,53 +1,21 @@
 <script>
-	import Header from './Header.svelte';
-	import './styles.css';
+  import InfoColumn from "./InfoColumn.svelte";
+  import Sections from "./Sections.svelte";
+  import TranslationOptions from "./TranslationOptions.svelte";
+  import "./styles.css";
 </script>
 
-<div class="app">
-	<Header />
+<div class="grid grid-cols-12 lg:gap-x-12">
+  <TranslationOptions />
 
-	<main>
-		<slot />
-	</main>
+  <InfoColumn />
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+  <main
+    class="mt-8 lg:mt-0 lg:col-span-7 lg:col-start-6 xl:col-span-8 col-span-12"
+  >
+    <Sections />
+    <div>
+      <slot />
+    </div>
+  </main>
 </div>
-
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-</style>

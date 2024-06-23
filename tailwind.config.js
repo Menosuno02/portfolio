@@ -1,0 +1,32 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./src/**/*.{html,js,svelte,ts}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+  safelist: [
+    "blue",
+    "green",
+    "red",
+    "yellow",
+    "indigo",
+    "pink",
+    "purple",
+    "orange",
+    "[#512BD4]",
+    "[#CC2927]",
+    "[#0EA5E9]",
+    "[#0769AD]",
+    "[#0078D4]",
+    "[#FF9900]",
+    "[#0F0F11]",
+    "[#3178C6]",
+    "[#3776AB]",
+    "[#092E20]",
+    "[#7952B3]",
+    "[#003B57]",
+    "[#430098]",
+    "[#4FC08D]",
+  ].map((c) => `bg-${c}-900 text-${c}-300 border-${c}-500`),
+};
