@@ -19,11 +19,7 @@
     </h5>
     <p class="mb-4 font-normal text-gray-400">{$t("data.dev")}</p>
     <div class="text-base-content text-opacity-60 text-white w-5/6">
-      <a
-        target="_blank"
-        rel="noreferrer"
-        class="flex justify-start py-2 px-1 items-center"
-      >
+      <div class="flex justify-start py-2 px-1 items-center">
         <div class="flex-grow font-medium gap-2 flex items-center my-1">
           <svg
             stroke="currentColor"
@@ -47,7 +43,7 @@
         >
           {$t("data.value.location")}
         </div>
-      </a>
+      </div>
       <a
         target="_blank"
         rel="noreferrer"
@@ -131,7 +127,7 @@
         <div
           class="text-white text-sm font-normal text-right mr-2 ml-3 truncate break-all"
         >
-          alejandrolopezlabajo26
+          alejandrolopezlabajo
         </div>
       </a>
       <a
@@ -166,11 +162,7 @@
           alopezlabajo.02@gmail.com
         </div>
       </a>
-      <a
-        target="_blank"
-        rel="noreferrer"
-        class="flex justify-start py-2 px-1 items-center"
-      >
+      <div class="flex justify-start py-2 px-1 items-center">
         <div class="flex-grow font-medium gap-2 flex items-center my-1">
           <svg
             stroke="currentColor"
@@ -193,7 +185,7 @@
         >
           {$t("data.value.birthday")}
         </div>
-      </a>
+      </div>
     </div>
   </div>
 </div>

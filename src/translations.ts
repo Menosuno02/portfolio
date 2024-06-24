@@ -32,7 +32,7 @@ export default {
     "ee.title1": "Experience",
     "ee.title2": "Education",
     "navbar.about": "About",
-    "navbar.ee": "Education & Experience",
+    "navbar.ee": "Education & experience",
     "navbar.projects": "Projects",
     "projects.iceberg.desc":
       "Social network part of my final project of the Web App Dev. cycle. An accessible UI + the basic features of any social network",
@@ -79,7 +79,7 @@ export default {
     "ee.title1": "Experiencia laboral",
     "ee.title2": "Educación",
     "navbar.about": "Sobre mí",
-    "navbar.ee": "Educación y Experiencia",
+    "navbar.ee": "Educación y experiencia",
     "navbar.projects": "Proyectos",
     "projects.iceberg.desc":
       "Red social parte de mi proyecto final del ciclo FP de DAW. Una interfaz de usuario accesible + las características básicas de cualquier red social",
