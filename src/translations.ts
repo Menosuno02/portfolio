@@ -1,5 +1,6 @@
 export default {
   en: {
+    "about.certs": "Certifications",
     "about.skills": "Skills / Competences",
     "about.p1": "Hi! I'm Alejo (or Álex, as you prefer)",
     "about.p2":
@@ -45,6 +46,7 @@ export default {
       "Web application created with Vue to search, filter and display the data of TV series using The Movie DB API",
   },
   es: {
+    "about.certs": "Certificaciones",
     "about.skills": "Habilidades / Competencias",
     "about.p1": "¡Holi! Soy Alejo (o Álex, como prefieras)",
     "about.p2":

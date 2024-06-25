@@ -52,7 +52,7 @@
         {/each}
       </div>
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-        Certificaciones
+        {$t("about.certificaciones")}
       </h5>
       <div
         class="p-3 -m-1 container mx-auto sm:px-4 max-w-full mx-auto sm:px-4"
