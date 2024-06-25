@@ -92,6 +92,12 @@ export const projects: Project[] = [
   },
 ];
 
+export const certificaciones: string[] = [
+  "awsdeveloper.png",
+  "azuredeveloper.png",
+  "powerplatformdeveloper.png",
+];
+
 export function badgeClasses(color: string): string {
   return ` bg-${color}-900 text-${color}-300 border-${color}-500`;
 }

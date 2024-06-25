@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import { t } from "../i18n";
-  import { badges, badgeClasses } from "../data";
+  import { badges, badgeClasses, certificaciones } from "../data";
 
   function getImageUrl(imageName: string) {
     return new URL(`/src/lib/images/${imageName}`, import.meta.url).href;
@@ -50,6 +50,23 @@
             </span>
           </div>
         {/each}
+      </div>
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+        Certificaciones
+      </h5>
+      <div
+        class="p-3 -m-1 container mx-auto sm:px-4 max-w-full mx-auto sm:px-4"
+      >
+        <div class="flex flex-wrap">
+          {#each certificaciones as cert}
+            <div class="w-1/4 sm:w-1/6">
+              <img
+                class="w-full"
+                src={getImageUrl("certs/" + cert.toString())}
+              />
+            </div>
+          {/each}
+        </div>
       </div>
     </div>
   </div>

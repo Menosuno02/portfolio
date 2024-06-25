@@ -25,7 +25,7 @@
           <img
             alt=""
             class="rounded-t-lg"
-            src={getImageUrl(project.id + ".png")}
+            src={getImageUrl("projects/" + project.id + ".png")}
           />
           <div class="p-5">
             <h5 class="mb-3 text-2xl font-bold tracking-tight text-white">
