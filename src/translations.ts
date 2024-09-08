@@ -29,7 +29,10 @@ export default {
     "ee.experience.1.date": "March 2023 - June 2023",
     "ee.experience.1.desc":
       "Formation and application of technologies such as Drupal, PHP, JavaScript, HTML, SCSS, Docker, Behat or Matomo in projects such as an internal intranet of the working group and small tasks for the Ministry of Consumer Affairs. Application of agile methodologies and tools such as Notion and Trello. Daily meetings with the working group and weekly meetings with clients.",
-    "ee.experience.1.title": "Full stack developer (internship)",
+    "ee.experience.1.title": "Full Stack Developer (internship)",
+    "ee.experience.2.date": "August 2024 - current",
+    "ee.experience.2.desc": "",
+    "ee.experience.2.title": "Cloud Solutions Developer",
     "ee.title1": "Experience",
     "ee.title2": "Education",
     "navbar.about": "About",
@@ -77,7 +80,10 @@ export default {
     "ee.experience.1.date": "Marzo 2023 - Junio 2023",
     "ee.experience.1.desc":
       "Formación y aplicación de tecnologías como Drupal, PHP, JavaScript, HTML, SCSS, Docker, Behat o Matomo en proyectos como una intranet interna del grupo de trabajo y pequeñas tareas para el Ministerio de Consumo. Aplicación de metodologías ágiles y de herramientas como Notion y Trello. Reuniones diarias con el grupo de trabajo y semanales con los clientes",
-    "ee.experience.1.title": "Desarrollador full stack (FCT)",
+    "ee.experience.1.title": "Desarrollador Full Stack (FCT)",
+    "ee.experience.2.date": "Agosto 2024 - actualidad",
+    "ee.experience.2.desc": "",
+    "ee.experience.2.title": "Cloud Solutions Developer",
     "ee.title1": "Experiencia laboral",
     "ee.title2": "Educación",
     "navbar.about": "Sobre mí",

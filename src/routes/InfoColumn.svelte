@@ -1,6 +1,6 @@
 <script>
   import { t } from "../i18n";
-  import foto from "$lib/images/foto.jpg";
+  import foto from "$lib/images/foto.png";
 </script>
 
 <div class="xl:col-span-4 lg:col-span-5 col-span-12">
@@ -9,7 +9,7 @@
   >
     <img
       alt=""
-      class="w-24 h-24 rounded-full shadow-lg mb-6"
+      class="w-28 h-28 rounded-full shadow-lg mb-6"
       src={foto}
       width="96"
       height="96"
@@ -45,6 +45,7 @@
         </div>
       </div>
       <a
+        href="https://encamina.com"
         target="_blank"
         rel="noreferrer"
         class="flex justify-start py-2 px-1 items-center"
@@ -69,7 +70,7 @@
         <div
           class="text-white text-sm font-normal text-right mr-2 ml-3 break-all"
         >
-          ---
+          ENCAMINA
         </div>
       </a>
       <a

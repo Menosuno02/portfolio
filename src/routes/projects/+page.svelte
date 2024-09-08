@@ -20,7 +20,7 @@
     <div class="grid grid-cols-12 gap-4">
       {#each projects as project}
         <div
-          class="col-span-12 sm:col-span-6 xl:col-span-4 border rounded-lg shadow bg-gray-700 border-gray-700"
+          class="col-span-12 sm:col-span-6 border rounded-lg shadow bg-gray-700 border-gray-700"
         >
           <img
             alt=""
