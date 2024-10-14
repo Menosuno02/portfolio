@@ -1,17 +1,17 @@
 export interface Project {
-  id: string;
-  title: string;
-  github: string;
-  web: string;
-  badges: CustomColorBadge[];
+	id: string;
+	title: string;
+	github: string;
+	web: string;
+	badges: CustomColorBadge[];
 }
 
 export interface Badge {
-  name: string;
-  color: string;
+	name: string;
+	color: string;
 }
 
 export interface CustomColorBadge {
-  id: string;
-  badge: Badge;
+	id: string;
+	badge: Badge;
 }

@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { page } from "$app/stores";
-  import { t } from "../i18n";
-  import { badges, badgeClasses, certificaciones } from "../data";
+import { page } from "$app/stores";
+import { badgeClasses, badges, certificaciones } from "../data";
+import { t } from "../i18n";
 
-  function getImageUrl(imageName: string) {
-    return new URL(`/src/lib/images/${imageName}`, import.meta.url).href;
-  }
+function getImageUrl(imageName: string) {
+	return `/images/${imageName}`;
+}
 </script>
 
 <svelte:head>
@@ -30,6 +30,7 @@
             style="color:#FF3E00"
           >
             <img
+              alt="Svelte"
               class="size-5 mix-blend-normal ml-0.5 mr-0.5 inline-block"
               src={getImageUrl("svgs/svelte-color.svg")}
             />Svelte
@@ -54,13 +55,12 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
         {$t("about.certs")}
       </h5>
-      <div
-        class="p-3 -m-1 container mx-auto sm:px-4 max-w-full mx-auto sm:px-4"
-      >
+      <div class="p-3 -m-1 container mx-auto sm:px-4 max-w-full">
         <div class="flex flex-wrap">
           {#each certificaciones as cert}
             <div class="w-1/4 sm:w-1/6">
               <img
+                alt={cert.toString()}
                 class="w-full"
                 src={getImageUrl("certs/" + cert.toString())}
               />

@@ -1,6 +1,6 @@
 <script>
-  import { t } from "../i18n";
-  import { page } from "$app/stores";
+import { page } from "$app/stores";
+import { t } from "../i18n";
 </script>
 
 <div

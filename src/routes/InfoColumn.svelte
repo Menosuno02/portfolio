@@ -1,6 +1,9 @@
-<script>
-  import { t } from "../i18n";
-  import foto from "$lib/images/foto.png";
+<script lang="ts">
+import { t } from "../i18n";
+
+function getImageUrl(imageName: string) {
+	return `/images/${imageName}`;
+}
 </script>
 
 <div class="xl:col-span-4 lg:col-span-5 col-span-12">
@@ -10,7 +13,7 @@
     <img
       alt=""
       class="w-28 h-28 rounded-full shadow-lg mb-6"
-      src={foto}
+      src={getImageUrl("foto.png")}
       width="96"
       height="96"
     />

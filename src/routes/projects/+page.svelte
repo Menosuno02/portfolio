@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { t } from "../../i18n";
-  import { projects, badgeCustomColorClasses } from "../../data";
+import { badgeCustomColorClasses, projects } from "../../data";
+import { t } from "../../i18n";
 
-  function getImageUrl(imageName: string) {
-    return new URL(`/src/lib/images/${imageName}`, import.meta.url).href;
-  }
+function getImageUrl(imageName: string) {
+	return `/images/${imageName}`;
+}
 </script>
 
 <svelte:head>
@@ -89,6 +89,7 @@
                       badgeCustomColorClasses(tech.badge.color)}
                   >
                     <img
+                      alt={tech.id}
                       class="size-5 mix-blend-normal mr-1.5 inline-block"
                       src={getImageUrl("svgs/" + tech.id + "-color.svg")}
                     />
