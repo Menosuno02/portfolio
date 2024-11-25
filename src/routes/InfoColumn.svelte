@@ -73,7 +73,7 @@ function getImageUrl(imageName: string) {
         <div
           class="text-white text-sm font-normal text-right mr-2 ml-3 break-all"
         >
-          ENCAMINA
+          ---
         </div>
       </a>
       <a

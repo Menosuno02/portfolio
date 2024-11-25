@@ -14,7 +14,7 @@ const localTranslations: Translations = {
   en: {
     "about.certs": "Certifications",
     "about.skills": "Skills / Competences",
-    "about.p1": "Hi! I'm Alejo (or Álex, as you prefer)",
+    "about.p1": "Hi! I'm Alejo",
     "about.p2":
       "I am a full stack developer from Madrid, more specialized in web applications",
     "about.p3":
@@ -42,7 +42,7 @@ const localTranslations: Translations = {
     "ee.experience.1.desc":
       "Training in Drupal, PHP, JavaScript, HTML, SCSS, Docker, Behat or Matomo, projects such as an internal intranet and small tasks for the Ministry of Consumption. Application of agile methodologies and tools such as Notion and Trello. Dailies with the work group and weekly meetings with clients",
     "ee.experience.1.title": "Full Stack Developer",
-    "ee.experience.2.date": "August 2024 - current",
+    "ee.experience.2.date": "August 2024 - November 2024",
     "ee.experience.2.desc":
       "Application for programming challenges. Developed in ASP.NET Core, React, Azure, SQL Server and Docker; and built with Clean Architecture and CQRS pattern. Training and use of technologies and techniques such as .NET Aspire, Redux, Azure Container Apps, MSAL, Microsoft Graph, AutoMapper, MediatR or Unit Testing (MSTest, xUnit). Daily meetings and use of Azure DevOps",
     "ee.experience.2.title": "Cloud Solutions Developer",
@@ -64,7 +64,7 @@ const localTranslations: Translations = {
   es: {
     "about.certs": "Certificaciones",
     "about.skills": "Habilidades / Competencias",
-    "about.p1": "¡Holi! Soy Alejo (o Álex, como prefieras)",
+    "about.p1": "¡Buenas! Soy Alejo",
     "about.p2":
       "Soy un desarrollador full stack de Madrid, más especializado en aplicaciones web",
     "about.p3":
@@ -94,7 +94,7 @@ const localTranslations: Translations = {
     "ee.experience.1.desc":
       "Formación en Drupal, PHP, JavaScript, HTML, SCSS, Docker, Behat o Matomo, proyectos como una intranet interna y pequeñas tareas para el Ministerio de Consumo. Aplicación de metodologías ágiles y de herramientas como Notion y Trello. Dailies con el grupo de trabajo y reuniones semanales con los clientes",
     "ee.experience.1.title": "Desarrollador Full Stack",
-    "ee.experience.2.date": "Agosto 2024 - actualidad",
+    "ee.experience.2.date": "Agosto 2024 - Noviembre 2024",
     "ee.experience.2.desc":
       "Aplicación para retos de programación. Desarrollada en ASP.NET Core, React, Azure, SQL Server y Docker; y construida con la arquitectura Clean Architecture y el patrón CQRS. Formación y uso de tecnologías y técnicas como .NET Aspire, Redux, Azure Container Apps, MSAL, Microsoft Graph, AutoMapper, MediatR o Unit Testing (MSTest, xUnit). Reuniones diarias y empleo de Azure DevOps",
     "ee.experience.2.title": "Cloud Solutions Developer",
